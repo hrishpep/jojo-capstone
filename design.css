@@ -1,0 +1,50 @@
+body {
+    background-image: url("./space_background.jpeg");
+    font-family: 'Montserrat', sans-serif ;
+    min-height: 100%;
+}
+
+tr { 
+    min-width: 80% ;
+    min-height: 100px;
+}
+
+td {
+    padding: 0px;
+    min-width: 100px;
+    min-height: 100px;
+}
+
+
+
+#gameGrid {
+    border: 2px solid black;
+    min-width: 100%;
+    min-height: 80%;
+    height: 1000px;
+    padding: 0px;
+    /*border-spacing: 0px;*/
+
+}
+
+#target {
+    width:150px;
+}
+
+#theBullet {
+    width: 50px;
+}
+
+.emptySpace {
+    min-width: 50px;
+    min-height: 50px;
+}
+
+ #tieFighter {
+    width:50px;
+}
+
+
+h1 {
+    font-family: sans-serif;
+}
